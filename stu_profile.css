@@ -1,0 +1,147 @@
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+} */
+.alb{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-left: 1%;
+  
+   
+ 
+}
+.alb img{
+    height: 100%;
+    width: 100%;
+    border-radius: 80px;
+    border: 5px solid silver;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    background-color: gray;
+    margin-top: -10px;
+    width: 102%;
+    /* margin-right: 5%; */
+    min-height: 150px;
+    font-size: 30px;
+    margin-right: -40px;
+    
+    
+    
+    
+    
+    }
+    
+    .header .branding h1{
+    margin-top: -60px;
+    padding-top: 70px;
+    margin-left: 8%;
+ 
+    
+
+    
+
+    
+    }
+    .nav{
+    float: right;
+    margin-top: -60px;
+    margin-right: 90px;
+    
+    }
+    
+    h1{
+    padding-top: 25px;
+    color: rgb(90, 60, 18);
+   
+    }
+    .nav button{
+    background-color: rgb(116, 77, 23);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 15px;
+    }
+    h1 .highlight{
+    color: white;
+    }
+    .header .branding{
+    margin-left: 0%;
+    margin-top: 20px;
+    
+    }
+    .nav button:hover{
+        background-color: white;
+        color: cornflowerblue;
+    }
+    .all{
+        margin-left: 5%;
+        font-size: 20px;
+    }
+    .all label{
+        color: gray;
+    }
+   
+    .studentsection label{
+        color: white;
+        background-color: rgb(87, 107, 216);
+        padding: 2px;
+        border: 2px solid grey;
+
+    }
+
+    .parentsection{
+        font-size: 45px;
+        clear: right;
+    }
+    .sta{
+        color: rgb(114, 89, 51);
+    }
+    .mb-0{
+        font-size: 30px;
+    }
+    .col-sm-9{
+        font-size: 27px;
+    }
+    .container{
+       position: relative;
+       right:-170px;
+       top: -190px;
+     
+      
+    }
+    .card-body{
+        width: 40%;
+    }
+    #card-header{
+        width: 100%;
+        font-size: 25px;
+       
+    }
+    .card-header{
+        width: 100%;
+        font-size: 30px;
+    }
+    .tabur{
+        width: 80%;
+        float: right;
+        margin-top: -190px;
+        margin-right: 2%;
+    }
+   .taburr{
+       margin-top: 200px;
+   }
+    

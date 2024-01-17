@@ -1,0 +1,62 @@
+   if($english_ca == 'out now'){
+                          $sel = "SELECT * FROM $class where id = '$ids'";
+                          $quer = mysqli_query($conn,$sel);
+                          if($quer){
+                              while($nah=mysqli_fetch_assoc($quer)){
+                                  $ca1 = $nah['ca1'];
+                                  $ca2 = $nah['ca2'];
+                                  echo 'all in ';
+                                  ?> 
+                                    <table class="table table-striped" >
+                  <thead>
+                      <th>Subject</th>
+                      <th>ca_1</th>
+                      <th>ca_2</th>
+                  </thead>
+                              <tbody>
+                                      <td>ENGLISH CA</td>
+                                      <td><?=$ca1?></td>
+                                      <td><?=$ca2?></td>
+                              </tbody>
+                              </table>
+      <?php
+                              }
+                          }
+                          
+                     }
+                     elseif($english_ca == 'not out'){
+                      echo "<script> alert('not test is released yet. Sorry!')</script>";
+                  }
+              
+                  }
+                  else{
+                      echo "<script> alert('not working Sorry!')</script>";
+                  }
+                 
+                  ?>
+
+           <?php
+
+
+    }
+}
+    }
+
+     <div class="text">Complain form</div>
+                    <form action="#">
+                        <div class="data">
+                    <label for="">Email or phone</label>
+                    <input type="text" name="" id="" required>
+                        </div>
+
+                        <div class="data">
+                    <label for="">Password</label>
+                    <input type="password" name="" id="" required>
+                        </div>
+                            <div class="forget-pass"><a href="#">forget pasword</a></div>
+                        <div class="btn">
+                            <div class="inner"></div>
+                            <button type="submit">Send</button>
+                        </div>
+                        <div class="signup-link">not a member <a href="#">sign up</a></div>
+                    </form>

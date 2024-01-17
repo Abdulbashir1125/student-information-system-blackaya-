@@ -1,0 +1,85 @@
+body{
+    background: url(gg.jpg) ;
+    background-size: cover;
+}
+.title{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: grey;
+    color: white;
+}
+.title h2{
+    font-size: 50px;
+}
+.round{
+    border: 2px solid;
+    width: fit-content;
+    padding:2px;
+    border-radius: 17px;
+    margin-left: 47%;
+    background-color: cornflowerblue;
+    
+}
+.round a{
+    color: white;
+}
+.round a:hover{
+    color: cornflowerblue;
+    background-color: white;
+}
+.round:hover{
+    color: cornflowerblue;
+    background-color: white;
+}
+.article{
+    color: rgb(64, 83, 117);
+    font-weight: bold;
+    font-size: 34px;
+    background-color: rgba(53, 52, 52, 0.3);
+}
+article .sub-art{
+    color: rgb(31, 30, 30);
+    font-size: 25px;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+}
+.release-result,.unable-login{
+    border: 10px solid;
+    
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px 30px 10px 30px;
+   background: rgb(53, 56, 167);
+   color: white;
+}
+.release-result:hover,.unable-login:hover{
+    background: grey;
+    color: white;
+}
+.release-result:active,.unable-login:active{
+    padding: 8px;
+}
+.btnn{
+    /* float: right; */
+    display: inline;
+    margin-right: 20px;
+    margin-top: 30px;
+    
+
+}
+.btnn div{
+    display: inline;
+    
+}
+section{
+    margin-left: 30%;
+    margin-top: 80px;
+}
+form{
+    position: relative;
+    right:200px;
+    
+}

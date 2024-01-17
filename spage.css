@@ -1,0 +1,160 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    color: black;
+    background-color: rgb(94, 94, 92);
+    
+}
+
+header{
+    background-color:  rgb(63, 41, 11);
+    color: white;
+    margin: 0;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(11, 146, 224) 3px solid;
+    overflow: hidden;
+    
+}
+.fa-users{
+    color: rgb(63, 41, 11);
+}
+.stu-d,.pa-r,.ad-m{
+    text-decoration: none;
+    color: black;
+}
+.stu-d:active,.pa-r:active,.ad-m:active{
+    font-size: small;
+}
+.fa-male{
+    color: rgb(11, 146, 224);
+}
+.fa-user-secret{
+    color: rgb(63, 41, 11);
+    
+}
+.textt{
+    font-size: 30px;
+    color: rgb(249, 252, 253);
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+  
+    
+}
+
+ul{
+    margin: 10px;
+    padding: 0;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header li{
+    /* float: left; */
+    display: inline;
+    padding: 0 20px 0 20px;
+  
+}
+header .branding{
+    float: left;
+}
+header nav{
+    float: right;
+    margin-top: 30px;
+}
+header .highlight, header .active a{
+    color: rgb(11, 146, 224);
+    font-weight: bold;
+}
+header a:hover{
+    color: white;
+    font-weight: bolder;
+    border-bottom: 2px solid rgb(11, 146, 224);
+}
+.dive{
+   
+    width: 60%;
+    font-size: 30px;
+    margin-top: 14px;
+    border-top: none;
+    margin-left: 125px;
+    color: maroon;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.dive1{
+    color: rgb(11, 46, 66);
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.call1{
+    font-size: 50px;
+    color: rgb(96, 144, 235);
+    font-family: cursive;
+}
+.call{
+    padding: 20px;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: rgb(51, 49, 49);
+    
+}
+.call:hover{
+    background-color: rgb(160, 159, 159);
+    color: rgb(51, 49, 49);
+}
+.dive2{
+    margin-left: 130px;
+   
+}
+.call-link{
+    text-decoration: none;
+    color: rgb(242, 245, 247);
+   font-size: 30px;
+}
+.fa-phone{
+    color: rgb(5, 96, 148);
+}
+.span1{
+    color: rgb(241, 243, 247);
+    font-size: 80px;
+}
+.fa-home{
+    color: white;
+}
+
+.dive3{
+    margin-left: 100px;
+  background-color: none;
+    width: fit-content;
+    border-radius: 12px;
+    position: absolute;
+    top: 400px;
+    left: 800px;
+   
+    
+}
+
+.call2{
+    color: cornflowerblue;
+    font-size: 50px;
+}
+.dive3>a{
+    
+color: white;
+font-size: 50px;
+margin-left: 8px;
+    
+    
+}

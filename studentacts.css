@@ -1,0 +1,175 @@
+
+.title{
+    color: rgb(112, 110, 110);
+    font-size: 50px;
+   padding-top: 27px;
+   padding-left: 7px;
+}
+header{
+    min-height: 140px;
+    background: url(activities.jpg);
+}
+header li{
+    /* display: inline; */
+    padding-left: 10px;
+    color: white;
+    /* text-decoration: none; */
+    
+}
+header ul{
+    float: right;
+    margin-top: -80px;
+    font-size: 20px;
+    margin-right: 2%;
+}
+header li:hover{
+    text-decoration: white underline;
+}
+.com{
+    min-height: 450px;
+    /* background: url(gg.jpg); */
+    /* color: rgb(65, 105, 180); */
+    
+   
+   
+    
+}
+.com div{
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(41, 61, 9);
+    
+ 
+}
+
+.comm div{
+  
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(41, 61, 9);
+}
+.comm{
+  margin-top: 30px;
+}
+
+#wh{
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 30%; 
+    position: absolute;
+    top: 45%;
+}
+#who{
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 30%; 
+    position: absolute;
+    top: 73%;
+    right: 49%;
+}
+.output{
+    position: absolute;
+    top: 120px;
+    right: 10px;
+}
+.output_math{
+    position: absolute;
+    top: 240px;
+    right: 10px;
+}
+.output_bs{
+    position: absolute;
+    top: 305px;
+    right: 10px;
+}
+#foot{
+    background-color: grey;
+     font-size: 30px;
+     width: 100.5;
+     height: 68px;
+     text-align: center;
+     margin-top: 0px;
+
+ }
+ 
+ #foot>p>span{
+     color: white;
+     font-size: 35px;
+ }
+ .popup .overlay {
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     width: 100vw;
+     height: 100vh;
+     background: rgba(0,0,0,0.7);
+     z-index: 1;
+     display: none;
+ }
+ .popup .content{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%) scale(0);
+     background: #fff;
+     width: 550px;
+     height: 80%;
+     z-index: 2;
+     text-align: center;
+     padding: 20px;
+     box-sizing: border-box;
+     border-radius: 10px;
+ }
+
+ .popup .close-btn{
+     cursor: pointer;
+     position: absolute;
+     right: 20px;
+     top: 20px;
+     width: 30px;
+     height: 30px;
+     background: #222;
+     color: #fff;
+     font-size: 25px;
+     font-weight: 600;
+     line-height: 30px;
+     text-align: center;
+     border-radius: 50%;
+ }
+
+ .popup.active .overlay{
+     display: block;
+ }
+ .popup.active .content{
+     transition: all 300ms ease-in-out;
+     transform: translate(-50%,-50%) scale(1);
+ }
+ .spec{
+     font-size: 15px;
+     font-weight: bold;
+ }
+ .tt{
+     font-size: 20px;
+     color: rgb(53, 53, 53);
+     font-family: cursive;
+     font-weight: bolder;
+ }
+ .not{
+     font-size: 30px;
+     color: red;
+     text-align: center;
+ }
+ .close{
+     color: red;
+     font-size: large;
+ }
+ .stun{
+     font-size: 13px;
+     color: black;
+ }
+ .stun SPAN{
+     font-size: 23px;
+     font-weight: bold;
+     color: cornflowerblue;
+ }
+

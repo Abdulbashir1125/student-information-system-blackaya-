@@ -1,0 +1,128 @@
+
+body{
+    
+   background: url(back.jpg) no-repeat;
+   background-size: cover;
+   
+   margin-left: -26px;
+
+}
+
+form{
+    margin-left: 5%;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(223, 157, 70);
+    width: 30%;
+    position: absolute;
+    top: 250px;
+    left: -15px;
+    background: rgb(0, 0, 0,0.5);
+    border-radius: 30px;
+    
+}
+/* input{
+    background: none;
+    padding: 15px;
+    width: 15%;
+    color: white;
+} */
+input[type='submit']{
+    color: rgb(252, 252, 253);
+    font-size: 20px;
+    width: 25%;
+    background: rgb(207, 137, 72);
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+   
+}
+input[type='submit']:hover{
+    color: rgb(207, 149, 83);
+    font-size: 18px;
+    width: 25%;
+    background: rgb(251, 251, 252);
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+input[type='email']{
+    color: rgb(238, 242, 248);
+    font-size: 15px;
+    width: 75%;
+    color: chocolate;
+    border-radius: 20px;
+    padding: 10px;
+}
+input[type='password']{
+    border-radius: 20px;
+    color: rgb(238, 242, 248);
+    font-size: 15px;
+    width: 75%;
+    padding: 10px;
+    color: chocolate;
+ 
+}
+.fa-arrow-left{
+    position: absolute;
+    top: 65px;
+    left: 10px;
+    color: rgb(136, 165, 252);
+}
+.fa-arrow-left:hover{
+    color: chocolate;
+}
+footer{
+    clear: left;
+    color: white ;
+    margin-top: -10px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    background: darkgray;
+    width: 97.7%;
+   
+    
+
+    
+}
+footer>p>span{
+    color: cornflowerblue;
+    font-size: 40px;
+}
+#foot{
+    position: absolute;
+    bottom: 0px;
+    font-size: 20px;
+    width: 99%;
+}
+#foot>p>span{
+    color: cornflowerblue;
+    font-size: 20px;
+}
+.dive{
+    color: red;
+    font-size: 18px;
+    
+    width: fit-content;
+   margin-left: 25%;
+}
+.divei{
+    color: red;
+    font-size: 18px;
+    
+    width: fit-content;
+   margin-left: 16%;
+}
+
+.frgt{
+    font-size: 20px;
+    
+
+}
+.frgt a{
+    color: rgb(189, 58, 58);
+}

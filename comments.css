@@ -1,0 +1,29 @@
+.title{
+    color: #fff;
+    font-size: 30px;
+   padding-top: 37px;
+   padding-left: 7px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    min-height: 140px;
+   background: grey;
+   border-bottom: 7px solid cornflowerblue;
+}
+header li{
+    /* display: inline; */
+    padding-left: 10px;
+    color: rgb(32, 32, 70);
+    /* text-decoration: none; */
+    
+}
+header ul{
+    float: right;
+    margin-top: -55px;
+    font-size: 20px;
+    margin-right: 2%;
+}
+header li:hover{
+    color: white;
+    text-decoration: rgb(41, 39, 39) underline;
+}

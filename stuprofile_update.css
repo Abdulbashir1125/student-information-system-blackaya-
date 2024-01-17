@@ -1,0 +1,79 @@
+
+.header{
+    background-color: gray;
+    margin-top: -10px;
+    width: 104%;
+    /* margin-right: 5%; */
+    min-height: 150px;
+    font-size: 30px;
+    margin-left: -10px;
+    
+    
+    
+    
+    
+    }
+    
+    .header .branding h1{
+    margin-top: -60px;
+    padding-top: 70px;
+    margin-left: 5%;
+ 
+    
+
+    
+
+    
+    }
+    .nav{
+    float: right;
+    margin-top: -60px;
+    margin-right: 90px;
+    
+    }
+    
+    h1{
+    padding-top: 25px;
+    color: rgb(90, 60, 18);
+   
+    }
+    .nav button{
+    background-color: rgb(116, 77, 23);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 15px;
+    }
+    h1 .highlight{
+    color: white;
+    }
+    .header .branding{
+    margin-left: 0%;
+    margin-top: 20px;
+    
+    }
+    .nav button:hover{
+        background-color: white;
+        color: cornflowerblue;
+    }
+
+.alb{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-left: 1%;
+  
+   
+ 
+}
+.alb img{
+    height: 100%;
+    width: 100%;
+    border-radius: 80px;
+    border: 5px solid silver;
+   
+}

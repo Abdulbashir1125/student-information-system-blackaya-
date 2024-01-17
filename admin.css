@@ -1,0 +1,102 @@
+
+.fa-users{
+    color: rgb(63, 41, 11);
+}
+.stu-d,.pa-r,.ad-m{
+    text-decoration: none;
+    color: black;
+}
+.stu-d:active,.pa-r:active,.ad-m:active{
+    font-size: small;
+}
+.fa-male{
+    color: rgb(11, 146, 224);
+}
+.fa-user-secret{
+    color: #664311;
+    
+}
+.textt{
+    font-size: 30px;
+    color: rgb(249, 252, 253);
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+   
+  
+    
+}
+header{
+    margin-top: 20px;
+    text-align: center;
+}
+header li{
+    display: inline-block;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 50px;
+    color: white;
+}
+.highlight{
+    font-size: 40px;
+}
+.sec-admin{
+    width: 100%;
+    height: 60px;
+    /* background-color: grey; */
+   
+    
+}
+.sec-admin>p{
+    font-size: 30px;
+    font-family: monospace;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.form-admin{
+  /* border: 2px solid black; */
+  width: 40%;
+  height: 300px;
+  margin:auto;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 10px;
+  /* background-color: rgb(214, 200, 145); */
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  /* background-color: none; */
+  border-radius: 30px 0 30px 0;
+}
+.form-admin>span{
+    color: rgb(11, 146, 224); 
+    font-size: larger;  
+}
+.form-admin>input[type='text']{
+    width: 50%;
+    padding: 15px;
+    font-size: 15px;
+}
+.form-admin>input[type='password']{
+    width: 50%;
+    padding: 15px;
+    font-size: 15px;
+    background-color: none;
+}
+/* .form-admin>input[type='submit']{ */
+    /* font-size: 20px;
+    margin-top: 5px;
+    background-color: rgb(113, 113, 211);
+  border: 3px solid;
+  /* border-radius: 30px 30px 30px 30px; */
+   /* color: #5f5d5b;
+   padding: 10px;
+   width: 30%; */ */
+}
+.form-admin>input[type='submit']:focus{
+    font-size: 20px;
+    
+}
+

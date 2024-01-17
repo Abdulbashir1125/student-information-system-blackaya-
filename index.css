@@ -1,0 +1,256 @@
+
+.fa-users{
+    color: rgb(63, 41, 11);
+}
+.stu-d,.pa-r,.ad-m{
+    text-decoration: none;
+    color: black;
+}
+.stu-d:active,.pa-r:active,.ad-m:active{
+    font-size: small;
+}
+.fa-male{
+    color: rgb(11, 146, 224);
+}
+.fa-user-secret{
+    color: rgb(63, 41, 11);
+    
+}
+.textt{
+    font-size: 30px;
+    color: rgb(249, 252, 253);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    color: black;
+ 
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+  
+    
+}
+header{
+    background-color: gray;
+    color: white;
+    margin: 0;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(11, 146, 224) 3px solid;
+    overflow: hidden;
+    
+}
+ul{
+    margin: 10px;
+    padding: 0;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header li{
+    /* float: left; */
+    display: inline;
+    padding: 0 20px 0 20px;
+  
+}
+header .branding{
+    float: left;
+}
+header nav{
+    float: right;
+    margin-top: 30px;
+}
+header .highlight, header .active a{
+    color: rgb(11, 146, 224);
+    font-weight: bold;
+}
+header a:hover{
+    color: white;
+    font-weight: bolder;
+    border-bottom: 2px solid rgb(11, 146, 224);
+}
+.showcase{
+    min-height: 200px;
+    background: url("zac1.jpg") no-repeat 0px -150px;
+    overflow: hidden;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-bottom:4px solid rgb(11, 146, 224);
+
+}
+.showcase h2{
+    margin-top: 150px;
+    font-size: 55px;
+
+}
+.showcase p{
+    font-size: 20px;
+}
+.newsletter{
+    background: black;
+    padding: 5px;
+    color: white;
+    overflow: hidden;
+    border-top: 3px solid rgb(11, 146, 224);
+    border-bottom: 3px solid rgb(11, 146, 224);
+    clear: left;
+}
+.newsletter h3{
+    float: left;
+    font-size: 20px;
+}
+.newsletter form{
+    float: right;
+    margin-top: 20px;
+}
+.newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    font-size: 20px;
+    
+}
+.btn{
+    padding: 5px 20px 0px 20px;
+    height: 35px;
+    color: white;
+    background: red;
+    border: none;
+}
+.boxes{
+    margin-top: 30px;
+    text-align: center;
+}
+.boxes .box{
+    float: left;
+    width: 30%;
+    padding-left: 30px;
+}
+footer{
+    clear: left;
+    color: black ;
+    margin-top: 5px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    background: darkgray;
+    
+}
+footer>p>span{
+    color: rgb(63, 41, 11);
+}
+/* footer>p>a:hover{
+    font-size: 40px;
+    color: red;
+} */
+.abt{
+   float: left;
+
+}
+.awt{
+    margin-left: 69%;
+    margin-top: 30px;
+}
+.web{
+    background: grey;
+    color: white;
+    width: 40%;
+    border: rgb(245, 18, 29);
+    border-style: dashed;
+    margin-left: 5%;
+    border-width: 8px 0px 0px 8px;
+    border-radius: 0px 30px 30px 0px;
+}
+.design{
+    border: 3px solid gray;
+    width: 40%;
+    border-radius: 0px 30px 30px 0px;
+}
+.FORM1{
+    background: gray;
+    width: fit-content;
+    position: absolute;
+    top:180px;
+    left: 1100px;
+}
+MARQUEE{
+    padding-left: 135PX;
+}
+/*media quary*/
+@media(max-width: 768px){
+    header .branding,
+    header nav,
+    header nav li,
+    .newsletter h3,
+    .newsletter form,
+    .boxes .box,
+    section .about,aside
+    {
+        float: none;
+        text-align: center;
+    }
+    header{
+        padding-bottom: 10px;
+    }
+    .showcase{
+        min-height: 200px;
+        background: url("lion.jpg") no-repeat;
+        overflow: none;
+        background-size: cover;
+        text-align: center;
+        color: white;
+    }
+    .showcase h2{
+        font-size: 30px;
+        margin-top: 60px;
+    }
+    .showcase p{
+        font-size: 18px;
+    }
+    .btn{
+        display: block;
+       width: 100%;
+       text-align: center;
+       margin-top: 10px;
+       font-size: 18px;
+       font-weight: bolder;
+       margin-left: 7px;
+    }
+    .newsletter input[type="email"]{
+        padding: 5px;
+        height: 25px;
+        width: 100%;
+        font-size: 16px;
+    }
+    aside.dark{
+        margin-left: 55px;
+        width: 70%;
+    }
+   .newsletter>.container>h3{
+       padding-left: 2%;
+   }
+   .boxes{
+       margin-left: 33%;
+   }
+   .mysection{
+       margin-left: 28%;
+   }
+   .web,.design{
+       width: 60%;
+   }
+   .mysection>h2{
+      padding-left: 15%;
+   }
+  
+
+}

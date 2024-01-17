@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: rgba(255, 255, 255, 0.842);
+}
+.navi{
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    background: #70500c;
+    transition: 0.5s;
+    overflow: hidden;
+    border-right: 6px solid cornflowerblue;
+}
+.navi:hover,.navi.active{
+    width: 300px;
+}
+.navi ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navi ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+.navi ul li:hover{
+    background: rgb(26, 62, 129);
+}
+.navi ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+
+}
+.navi ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.toggle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background: #523308;
+    cursor: pointer;
+    text-align: center;
+
+}
+.toggle .fa-align-justify{
+    color: cornsilk;
+    padding-top: 10px;
+}
+.toggle.active{
+    background: rgb(6, 42, 104);
+}
+.toggle.active:before{
+    color: cornsilk;
+    content: 'close';
+}
+.heade{
+    background: crimson;
+}
+.stu-d,.pa-r,.ad-m{
+    text-decoration: none;
+    color: black;
+}
+.stu-d:active,.pa-r:active,.ad-m:active{
+    font-size: small;
+}
+
+.fa-user-secret{
+    color: rgb(63, 41, 11);
+    
+}
+.textt{
+    font-size: 30px;
+    color: rgb(249, 252, 253);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    color: black;
+ 
+}
+.container{
+    width: 80%;
+    margin: auto;
+ 
+}
+.branding h1{
+    margin-left: 22%;
+}
+
+header{
+    background-color: rgb(37, 35, 31);
+    color: white;
+    margin: 0;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgba(185, 112, 16, 0.829) 3px solid;
+    overflow: hidden;
+    font-size: 20px;
+    
+}
+ul{
+    margin: 10px;
+    padding: 0;
+    margin-left: 32%;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header li{
+    /* float: left; */
+    display: inline;
+    padding: 0 20px 0 20px;
+  
+}
+header li:hover{
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+.highlight{
+    color: cornflowerblue;
+    
+}
+.btn1,.btn3{
+  padding: 80px;
+  font-size: x-large;
+  background-color: rgb(4, 13, 34);
+  color: #fff;
+  
+  
+}
+.btn2{
+    padding: 80px;
+    font-size: x-large;
+    background-color: rgb(83, 60, 10);
+    color: #fff;
+
+}
+.btn-md{
+    margin-left: 310px;
+    margin-top: 80px;
+}
+.btn-md .btn2,.btn3{
+    margin-left: 15px;
+}
+.btn1:active{
+    padding: 70px;
+}
+.btn2:active{
+    padding: 70px;
+}
+.btn3:active{
+    padding: 70px;
+}
+.selc{
+    font-size: 30px;
+    margin-left: 500px;
+}
+.fa-arrow-right{
+    position: absolute;
+    top: 90%;
+    right: 9%;
+}
+
+
+
+
